@@ -1,0 +1,29 @@
+--- 
+title: "Modelo Estratégico de Focalización del Dengue en áreas urbanas de México"
+author: "Felipe Antonio Dzul Manzanilla"
+date: "2021: Last compiled `r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: fdzul/strategic_model_of_dengue_targeting
+description: "El libro describe el Modelo Estratégico de Focalización del Dengue en áreas urbanas de México"
+---
+
+# Prologo {-}
+
+## Justificación {-}
+
+## Estructura del Libro {-}
+
+## Software & Convenciones {-}
+
+## Agradecimientos {-}
+
+
+# Autores {-}
+
+## Felipe Antonio Dzul Manzanilla {-}
+
+## Fabián Correa Morales {-}
