@@ -1,0 +1,18 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Modelo Estratégico de Focalización del Dengue en áreas urbanas de México</a></li>
+      after: |
+        <li><a href="https://github.com/fdzul/strategic_model_of_dengue_targeting" target="blank">Published with bookdown</a></li>
+    edit: https://github.com/fdzul/strategic_model_of_dengue_targeting/edit/master/%s
+    download: ["pdf", "epub", "mobi"]
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
+ouput_dir: docs

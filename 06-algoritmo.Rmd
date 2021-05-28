@@ -1,0 +1,38 @@
+# Algoritmos para el análisis de la información epidemiológica y entomológica {#algoritmo}
+
+## Análisis de bases históricas
+
+### Vigilancia Epidemiológica
+
+#### Areal Analysis
+
+##### Hotspots de casos
+
+#### Point Pattern Analysis
+
+##### Space-Time Análisis
+
+###### SatScan statistics (Identificación de cluster de casos con SaTScan)
+
+###### Knox test (Identificación de cadenas de transmisión ClusterSeer)
+
+##### Log Gaussian Cox Process
+
+
+### Vigilancia Entomológica
+
+#### Geoestistical Analysis
+
+#### Point Pattern Analysis
+
+
+## Análisis de bases actuales
+
+## Integración de los análisis
+
+### Definición del mapa de riesgo.
+
+
+
+
+

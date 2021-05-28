@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Estudios de Casos | Modelo Estratégico de Focalización del Dengue en áreas urbanas de México</title>
+  <meta name="description" content="El libro describe el Modelo Estratégico de Focalización del Dengue en áreas urbanas de México" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Estudios de Casos | Modelo Estratégico de Focalización del Dengue en áreas urbanas de México" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="El libro describe el Modelo Estratégico de Focalización del Dengue en áreas urbanas de México" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Estudios de Casos | Modelo Estratégico de Focalización del Dengue en áreas urbanas de México" />
+  
+  <meta name="twitter:description" content="El libro describe el Modelo Estratégico de Focalización del Dengue en áreas urbanas de México" />
+  
+
+<meta name="author" content="Felipe Antonio Dzul Manzanilla" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="algoritmo.html"/>
+
+<script src="libs/header-attrs-2.8.4/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prologo</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#justificación"><i class="fa fa-check"></i>Justificación</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#estructura-del-libro"><i class="fa fa-check"></i>Estructura del Libro</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#software-convenciones"><i class="fa fa-check"></i>Software &amp; Convenciones</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#agradecimientos"><i class="fa fa-check"></i>Agradecimientos</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="autores.html"><a href="autores.html"><i class="fa fa-check"></i>Autores</a>
+<ul>
+<li class="chapter" data-level="" data-path="autores.html"><a href="autores.html#felipe-antonio-dzul-manzanilla"><i class="fa fa-check"></i>Felipe Antonio Dzul Manzanilla</a></li>
+<li class="chapter" data-level="" data-path="autores.html"><a href="autores.html#fabián-correa-morales"><i class="fa fa-check"></i>Fabián Correa Morales</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
+<li class="chapter" data-level="2" data-path="objetivos.html"><a href="objetivos.html"><i class="fa fa-check"></i><b>2</b> Objetivos</a></li>
+<li class="chapter" data-level="3" data-path="justificacion.html"><a href="justificacion.html"><i class="fa fa-check"></i><b>3</b> Justificación</a></li>
+<li class="chapter" data-level="4" data-path="fuentes-informacion.html"><a href="fuentes-informacion.html"><i class="fa fa-check"></i><b>4</b> Fuentes de Información</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="fuentes-informacion.html"><a href="fuentes-informacion.html#líneas-de-tiempo."><i class="fa fa-check"></i><b>4.1</b> Líneas de tiempo.</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="fuentes-informacion.html"><a href="fuentes-informacion.html#vigilancia-epidemiológica."><i class="fa fa-check"></i><b>4.1.1</b> Vigilancia Epidemiológica.</a></li>
+<li class="chapter" data-level="4.1.2" data-path="fuentes-informacion.html"><a href="fuentes-informacion.html#vigilancia-entomológica."><i class="fa fa-check"></i><b>4.1.2</b> Vigilancia Entomológica.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="analisis.html"><a href="analisis.html"><i class="fa fa-check"></i><b>5</b> Análisis de la Información</a></li>
+<li class="chapter" data-level="6" data-path="algoritmo.html"><a href="algoritmo.html"><i class="fa fa-check"></i><b>6</b> Algoritmos para el análisis de la información epidemiológica y entomológica</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="algoritmo.html"><a href="algoritmo.html#análisis-de-bases-históricas"><i class="fa fa-check"></i><b>6.1</b> Análisis de bases históricas</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="algoritmo.html"><a href="algoritmo.html#vigilancia-epidemiológica"><i class="fa fa-check"></i><b>6.1.1</b> Vigilancia Epidemiológica</a></li>
+<li class="chapter" data-level="6.1.2" data-path="algoritmo.html"><a href="algoritmo.html#vigilancia-entomológica"><i class="fa fa-check"></i><b>6.1.2</b> Vigilancia Entomológica</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="algoritmo.html"><a href="algoritmo.html#análisis-de-bases-actuales"><i class="fa fa-check"></i><b>6.2</b> Análisis de bases actuales</a></li>
+<li class="chapter" data-level="6.3" data-path="algoritmo.html"><a href="algoritmo.html#integración-de-los-análisis"><i class="fa fa-check"></i><b>6.3</b> Integración de los análisis</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="algoritmo.html"><a href="algoritmo.html#definición-del-mapa-de-riesgo."><i class="fa fa-check"></i><b>6.3.1</b> Definición del mapa de riesgo.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="estudios-caso.html"><a href="estudios-caso.html"><i class="fa fa-check"></i><b>7</b> Estudios de Casos</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-guadalajara"><i class="fa fa-check"></i><b>7.1</b> Área metropolitana de Guadalajara</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos."><i class="fa fa-check"></i><b>7.1.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.1.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics."><i class="fa fa-check"></i><b>7.1.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.1.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test"><i class="fa fa-check"></i><b>7.1.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.1.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector"><i class="fa fa-check"></i><b>7.1.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.1.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo"><i class="fa fa-check"></i><b>7.1.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.1.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones"><i class="fa fa-check"></i><b>7.1.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-monterrey"><i class="fa fa-check"></i><b>7.2</b> Área metropolitana de Monterrey</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-1"><i class="fa fa-check"></i><b>7.2.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.2.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-1"><i class="fa fa-check"></i><b>7.2.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-1"><i class="fa fa-check"></i><b>7.2.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.2.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-1"><i class="fa fa-check"></i><b>7.2.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.2.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-1"><i class="fa fa-check"></i><b>7.2.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.2.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-1"><i class="fa fa-check"></i><b>7.2.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-acapulco"><i class="fa fa-check"></i><b>7.3</b> Área metropolitana de Acapulco</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-2"><i class="fa fa-check"></i><b>7.3.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.3.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-2"><i class="fa fa-check"></i><b>7.3.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.3.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-2"><i class="fa fa-check"></i><b>7.3.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.3.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-2"><i class="fa fa-check"></i><b>7.3.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.3.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-2"><i class="fa fa-check"></i><b>7.3.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.3.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-2"><i class="fa fa-check"></i><b>7.3.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-mérida"><i class="fa fa-check"></i><b>7.4</b> Área metropolitana de Mérida</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-3"><i class="fa fa-check"></i><b>7.4.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.4.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-3"><i class="fa fa-check"></i><b>7.4.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.4.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-3"><i class="fa fa-check"></i><b>7.4.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.4.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-3"><i class="fa fa-check"></i><b>7.4.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.4.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-3"><i class="fa fa-check"></i><b>7.4.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.4.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-3"><i class="fa fa-check"></i><b>7.4.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-veracruz"><i class="fa fa-check"></i><b>7.5</b> Área metropolitana de Veracruz</a>
+<ul>
+<li class="chapter" data-level="7.5.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-4"><i class="fa fa-check"></i><b>7.5.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.5.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-4"><i class="fa fa-check"></i><b>7.5.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.5.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-4"><i class="fa fa-check"></i><b>7.5.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.5.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-4"><i class="fa fa-check"></i><b>7.5.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.5.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-4"><i class="fa fa-check"></i><b>7.5.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.5.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-4"><i class="fa fa-check"></i><b>7.5.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.6" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-cancún"><i class="fa fa-check"></i><b>7.6</b> Área metropolitana de Cancún</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-5"><i class="fa fa-check"></i><b>7.6.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.6.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-5"><i class="fa fa-check"></i><b>7.6.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.6.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-5"><i class="fa fa-check"></i><b>7.6.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.6.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-5"><i class="fa fa-check"></i><b>7.6.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.6.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-5"><i class="fa fa-check"></i><b>7.6.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.6.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-5"><i class="fa fa-check"></i><b>7.6.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-puerto-vallarta"><i class="fa fa-check"></i><b>7.7</b> Área metropolitana de Puerto Vallarta</a>
+<ul>
+<li class="chapter" data-level="7.7.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-6"><i class="fa fa-check"></i><b>7.7.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.7.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-6"><i class="fa fa-check"></i><b>7.7.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.7.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-6"><i class="fa fa-check"></i><b>7.7.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.7.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-6"><i class="fa fa-check"></i><b>7.7.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.7.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-6"><i class="fa fa-check"></i><b>7.7.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.7.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-6"><i class="fa fa-check"></i><b>7.7.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.8" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-villahermosa"><i class="fa fa-check"></i><b>7.8</b> Área metropolitana de Villahermosa</a>
+<ul>
+<li class="chapter" data-level="7.8.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-7"><i class="fa fa-check"></i><b>7.8.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.8.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-7"><i class="fa fa-check"></i><b>7.8.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.8.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-7"><i class="fa fa-check"></i><b>7.8.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.8.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-7"><i class="fa fa-check"></i><b>7.8.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.8.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-7"><i class="fa fa-check"></i><b>7.8.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.8.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-7"><i class="fa fa-check"></i><b>7.8.6</b> Toma de desiciones</a></li>
+</ul></li>
+<li class="chapter" data-level="7.9" data-path="estudios-caso.html"><a href="estudios-caso.html#área-metropolitana-de-tapachula"><i class="fa fa-check"></i><b>7.9</b> Área metropolitana de Tapachula</a>
+<ul>
+<li class="chapter" data-level="7.9.1" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-de-casos.-8"><i class="fa fa-check"></i><b>7.9.1</b> Hotspots de Casos.</a></li>
+<li class="chapter" data-level="7.9.2" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-con-satscan-statistics.-8"><i class="fa fa-check"></i><b>7.9.2</b> Space-Time análisis con SaTScan statistics.</a></li>
+<li class="chapter" data-level="7.9.3" data-path="estudios-caso.html"><a href="estudios-caso.html#space-time-análisis-knox-test-8"><i class="fa fa-check"></i><b>7.9.3</b> Space-Time Análisis Knox test</a></li>
+<li class="chapter" data-level="7.9.4" data-path="estudios-caso.html"><a href="estudios-caso.html#hotspots-del-vector-8"><i class="fa fa-check"></i><b>7.9.4</b> Hotspots del vector</a></li>
+<li class="chapter" data-level="7.9.5" data-path="estudios-caso.html"><a href="estudios-caso.html#mapa-de-riesgo-8"><i class="fa fa-check"></i><b>7.9.5</b> Mapa de riesgo</a></li>
+<li class="chapter" data-level="7.9.6" data-path="estudios-caso.html"><a href="estudios-caso.html#toma-de-desiciones-8"><i class="fa fa-check"></i><b>7.9.6</b> Toma de desiciones</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Modelo Estratégico de Focalización del Dengue en áreas urbanas de México</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="estudios_caso" class="section level1" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Estudios de Casos</h1>
+<div id="área-metropolitana-de-guadalajara" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Área metropolitana de Guadalajara</h2>
+<div id="hotspots-de-casos." class="section level3" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics." class="section level3" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test" class="section level3" number="7.1.3">
+<h3><span class="header-section-number">7.1.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector" class="section level3" number="7.1.4">
+<h3><span class="header-section-number">7.1.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo" class="section level3" number="7.1.5">
+<h3><span class="header-section-number">7.1.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones" class="section level3" number="7.1.6">
+<h3><span class="header-section-number">7.1.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-monterrey" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Área metropolitana de Monterrey</h2>
+<div id="hotspots-de-casos.-1" class="section level3" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-1" class="section level3" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-1" class="section level3" number="7.2.3">
+<h3><span class="header-section-number">7.2.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-1" class="section level3" number="7.2.4">
+<h3><span class="header-section-number">7.2.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-1" class="section level3" number="7.2.5">
+<h3><span class="header-section-number">7.2.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-1" class="section level3" number="7.2.6">
+<h3><span class="header-section-number">7.2.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-acapulco" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Área metropolitana de Acapulco</h2>
+<div id="hotspots-de-casos.-2" class="section level3" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-2" class="section level3" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-2" class="section level3" number="7.3.3">
+<h3><span class="header-section-number">7.3.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-2" class="section level3" number="7.3.4">
+<h3><span class="header-section-number">7.3.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-2" class="section level3" number="7.3.5">
+<h3><span class="header-section-number">7.3.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-2" class="section level3" number="7.3.6">
+<h3><span class="header-section-number">7.3.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-mérida" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Área metropolitana de Mérida</h2>
+<div id="hotspots-de-casos.-3" class="section level3" number="7.4.1">
+<h3><span class="header-section-number">7.4.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-3" class="section level3" number="7.4.2">
+<h3><span class="header-section-number">7.4.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-3" class="section level3" number="7.4.3">
+<h3><span class="header-section-number">7.4.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-3" class="section level3" number="7.4.4">
+<h3><span class="header-section-number">7.4.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-3" class="section level3" number="7.4.5">
+<h3><span class="header-section-number">7.4.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-3" class="section level3" number="7.4.6">
+<h3><span class="header-section-number">7.4.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-veracruz" class="section level2" number="7.5">
+<h2><span class="header-section-number">7.5</span> Área metropolitana de Veracruz</h2>
+<div id="hotspots-de-casos.-4" class="section level3" number="7.5.1">
+<h3><span class="header-section-number">7.5.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-4" class="section level3" number="7.5.2">
+<h3><span class="header-section-number">7.5.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-4" class="section level3" number="7.5.3">
+<h3><span class="header-section-number">7.5.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-4" class="section level3" number="7.5.4">
+<h3><span class="header-section-number">7.5.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-4" class="section level3" number="7.5.5">
+<h3><span class="header-section-number">7.5.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-4" class="section level3" number="7.5.6">
+<h3><span class="header-section-number">7.5.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-cancún" class="section level2" number="7.6">
+<h2><span class="header-section-number">7.6</span> Área metropolitana de Cancún</h2>
+<div id="hotspots-de-casos.-5" class="section level3" number="7.6.1">
+<h3><span class="header-section-number">7.6.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-5" class="section level3" number="7.6.2">
+<h3><span class="header-section-number">7.6.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-5" class="section level3" number="7.6.3">
+<h3><span class="header-section-number">7.6.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-5" class="section level3" number="7.6.4">
+<h3><span class="header-section-number">7.6.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-5" class="section level3" number="7.6.5">
+<h3><span class="header-section-number">7.6.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-5" class="section level3" number="7.6.6">
+<h3><span class="header-section-number">7.6.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-puerto-vallarta" class="section level2" number="7.7">
+<h2><span class="header-section-number">7.7</span> Área metropolitana de Puerto Vallarta</h2>
+<div id="hotspots-de-casos.-6" class="section level3" number="7.7.1">
+<h3><span class="header-section-number">7.7.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-6" class="section level3" number="7.7.2">
+<h3><span class="header-section-number">7.7.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-6" class="section level3" number="7.7.3">
+<h3><span class="header-section-number">7.7.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-6" class="section level3" number="7.7.4">
+<h3><span class="header-section-number">7.7.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-6" class="section level3" number="7.7.5">
+<h3><span class="header-section-number">7.7.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-6" class="section level3" number="7.7.6">
+<h3><span class="header-section-number">7.7.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-villahermosa" class="section level2" number="7.8">
+<h2><span class="header-section-number">7.8</span> Área metropolitana de Villahermosa</h2>
+<div id="hotspots-de-casos.-7" class="section level3" number="7.8.1">
+<h3><span class="header-section-number">7.8.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-7" class="section level3" number="7.8.2">
+<h3><span class="header-section-number">7.8.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-7" class="section level3" number="7.8.3">
+<h3><span class="header-section-number">7.8.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-7" class="section level3" number="7.8.4">
+<h3><span class="header-section-number">7.8.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-7" class="section level3" number="7.8.5">
+<h3><span class="header-section-number">7.8.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-7" class="section level3" number="7.8.6">
+<h3><span class="header-section-number">7.8.6</span> Toma de desiciones</h3>
+</div>
+</div>
+<div id="área-metropolitana-de-tapachula" class="section level2" number="7.9">
+<h2><span class="header-section-number">7.9</span> Área metropolitana de Tapachula</h2>
+<div id="hotspots-de-casos.-8" class="section level3" number="7.9.1">
+<h3><span class="header-section-number">7.9.1</span> Hotspots de Casos.</h3>
+</div>
+<div id="space-time-análisis-con-satscan-statistics.-8" class="section level3" number="7.9.2">
+<h3><span class="header-section-number">7.9.2</span> Space-Time análisis con SaTScan statistics.</h3>
+</div>
+<div id="space-time-análisis-knox-test-8" class="section level3" number="7.9.3">
+<h3><span class="header-section-number">7.9.3</span> Space-Time Análisis Knox test</h3>
+</div>
+<div id="hotspots-del-vector-8" class="section level3" number="7.9.4">
+<h3><span class="header-section-number">7.9.4</span> Hotspots del vector</h3>
+</div>
+<div id="mapa-de-riesgo-8" class="section level3" number="7.9.5">
+<h3><span class="header-section-number">7.9.5</span> Mapa de riesgo</h3>
+</div>
+<div id="toma-de-desiciones-8" class="section level3" number="7.9.6">
+<h3><span class="header-section-number">7.9.6</span> Toma de desiciones</h3>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="algoritmo.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

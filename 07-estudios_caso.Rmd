@@ -1,0 +1,122 @@
+# Estudios de Casos {#estudios_caso}
+
+## Área metropolitana de Guadalajara
+
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Monterrey
+
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Acapulco
+
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Mérida
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Veracruz
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Cancún
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Puerto Vallarta
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Villahermosa
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
+## Área metropolitana de Tapachula
+### Hotspots de Casos.
+
+### Space-Time análisis con SaTScan statistics.
+
+### Space-Time Análisis Knox test
+
+### Hotspots del vector
+
+### Mapa de riesgo
+
+### Toma de desiciones
+
