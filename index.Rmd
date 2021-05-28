@@ -7,7 +7,7 @@ output: bookdown::gitbook
 documentclass: book
 biblio-style: apalike
 link-citations: yes
-github-repo: fdzul/strategic_model_of_dengue_targeting
+github-repo: fdzul/strategic_mod_den_targeting
 description: "El libro describe el Modelo Estratégico de Focalización del Dengue en áreas urbanas de México"
 ---
 
