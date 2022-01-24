@@ -86,3 +86,4 @@ space-time-análisis-knox-test-8
 hotspots-del-vector-8
 mapa-de-riesgo-8
 toma-de-desiciones-8
+fig:unnamed-chunk-1

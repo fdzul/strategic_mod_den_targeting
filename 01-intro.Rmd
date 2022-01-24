@@ -1,1 +1,8 @@
 # Introducción {#intro}
+
+El planteamiento de un modelo estratégico para la focalización del control integrado de las arbovirosis transmitidas por *Aedes aegypti* asociado a los manuales (**identificación de los hotspots de dengue en zonas urbanas**) para su implementación en los servicios de la Salud en los estados constituye una guía operativa para el análisis espacial de los hotspots de los casos de dengue y los hotspots del vector.
+
+El documento, los manuales y los paquetes en R asociados con el modelo estratégico para la focalizacion fueron inspirados por la necesidad de contribuir en la toma de desiciones del programa de prevención y control de las arbovirosis transmitidas por *Aedes aegypti*, específicamente en la identificación de los hotspots de la transmisión y la focalizacion de las acciones antivectoriales. Así mismo es inspirado por [**bookdown**](https://github.com/rstudio/bookdown) y todas las iniciativas the Free and Open Source Software. El libro es de código abierto y asegura que el contenido es reproducible en los servicios de salud de México.
+
+La iniciativa de escribir e instrumentar la identificación de los hostpos del dengue y su vector como un modelo de estratificación fue soportada por la [Secretaría de Salud del Estado de Veracruz](https://www.ssaver.gob.mx/) & el
+[CENAPRECE](https://www.gob.mx/salud/cenaprece)**

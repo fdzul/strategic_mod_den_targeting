@@ -1,1 +1,14 @@
 # Justificación {#justificacion}
+
+El programa de prevención y control del dengue en México se enfrenta a grandes desafíos que incluyen:
+
+ - 1) Expanción geográfica del dengue.
+ - 2) Incremento de la transmisión en zonas endémicas y no endémicas.
+ - 3) Presencia de brotes en zonas urbanas que contituyen grandes metropolis (Guadalajara, Monterrey, La comarca Lagunera, etc).
+ - 4) Potencial introducción de nuevos agentes causales, como la Fiebre Amarilla y Mayaro.
+ - 5) El modelo de estratificación actual es límitado y no tiene resolución espacial  para identificar el riesgo en las áreas urbanas (ciudades o metropolis).
+
+
+El desarrollo de un modelo estratégico de focalización de las acciones antivectoriales en las áreas urbanas endémicas de México y su implementación, constituye un elemento clave para redirigir los límitados recursos materiales, humanos y económicos a las áreas de los grandes centros urbanos donde la transmisión se concentra (basados en datos históricos) y donde las cadenas de transmisión son activas (datos actuales). Teóricamente, de acuerdo a la ley de Pareto 80/20, si el 80% de la transmisión se concentra en el 20% del área urbana, la focalización de las acciones en el 20% del área, permitiría obtener reducciones del 80% de la transmisión. 
+
+Indirectamente el modelo estratégico de focalización tiene como objeto determinar esta ley de Pareto para la transmisión de dengue en las áreas urbanas endémicas.

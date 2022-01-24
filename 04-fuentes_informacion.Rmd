@@ -1,7 +1,71 @@
 # Fuentes de Información {#fuentes_informacion}
+El sistema de salud de México tiene implementado el sistema de vigilancia epidemiologica pasiva y el sistema de vigilancia entomológica con ovitrampas. El primero ha generado bases de datos con nivel de resolución espacial a nivel de domicilio desde el 2008 (bases de datos históricas). El sistema de vigilancia entomológica con ovitrampas fue implementado desde el 2010 consolidandose en el 2013, cuando la mayoría de los estados implementaron su vigilancia con ovitrampas.
+La información del sistema de vigilancia epidemiologica pasiva del dengue es accesada en el [Sistema Nacional Vigilancia Epidemiológica](https://www.sinave.gob.mx/) y la bases de datos sistema de vigilancia entomológica con ovitrampas es obtenida del [Sistema Integral de Monitoreo de Vectores](http://kin.insp.mx/aplicaciones/SisMV).
 
 
 ## Líneas de tiempo.
+
+Las bases de datos de la información epidemiológica desde el punto de vista análitico se dividen en dos grupos, bases de datos históricas (2008-2019) y bases de datos prospectivas(2020) que corresponden al año en curso. A su vez esta última puede subdividirse (según la semana epidemiológica y el avance del año) en bases de datos de transmisión activa (ultimo mes y de acuerdo al periódo de incubación del vector y el huesped humano), bases actuales acumulados (semana epidemiológica 1 a la semana actual), y bases de datos actuales (semana epidemiológica 1 a la semana actual menos las semanas de transmisión activa)(Figura 1)
+
+Las bases de datos sistema de vigilancia entomológica con ovitrampas igualmente es dividido en bases de datos retrospectivos o historicos y bases de datos actuales. Debido a que no se puede acumular el conteo de huevo el análisis de la información debe ser semanal para ambos tipos de bases.
+
+
+```{r,dpi=300, echo=FALSE, fig.align ="center", out.width = "100%", fig.cap = "Linea de tiempo de la Vigilancia Epidemiológica y Entomológica!"}
+library(timevis)
+a <- timevis::timevis(data = data.frame(start = c("2008-01-01", "2011-01-01", "2017-01-01","2017-01-01",
+                                                  "2008-01-01", "2020-01-01", "2020-11-01"),
+                                        end = c("2020-10-31", "2020-10-31", "2020-10-31","2020-10-31", 
+                                                "2020-01-01", "2020-10-31", "2020-12-31"),
+                          #style = c("color: darkblue; font-size: 15px; border-color: darkblue; border: 2px solid darkblue;"),
+                          content = c("Vigilancia Epidemiológica Pasiva", 
+                                      "Vigilancia Entomológica con Ovitrampas", 
+                                      "Vigilancia Entomológica con Adultos",
+                                      "Entomovirología",
+                                      "Históricos",
+                                      "Actuales",
+                                      "Transmisión Activa"),
+                          #type = c("background"),
+                          style = c("text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkred; border: 2px solid black; background-color: firebrick;",
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkblue; border: 2px solid black; background-color: dodgerblue;",
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkblue; border: 2px solid black; background-color: dodgerblue;", 
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkgreen; border: 2px solid black; background-color: darkgreen;",
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkorange; border: 2px solid black; background-color: darkorange;", 
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkorange; border: 1.5px solid black; background-color: darkorange;", 
+                                    "text-align: center; font-weight: bold; color: black; font-size: 15px; border-color: darkorange; border: 1px solid gray; background-color: darkorange;"),
+                          group = c(1, 2, 2,3, 4, 4,4)),
+        groups = data.frame(id = 1:4, 
+                            content = c("Paciente", 
+                                        "Vector",
+                                        "Virus-Vector",
+                                        "Hotspots"),
+                            style = c("text-align: center; font-weight: bold; color: black; font-size: 20px; border-color: darkred; border: 2px solid black; background-color: firebrick;",
+                                      "text-align: center; font-weight: bold; color: black; font-size: 20px; border-color: darkblue; border: 2px solid black; background-color: dodgerblue;",
+                                      "text-align: center; font-weight: bold; color: black; font-size: 20px; border-color: darkgreen; border: 2px solid black; background-color: darkgreen;",
+                                      "vertical-align: middle; text-align: center; font-weight: bold; color: black; font-size: 20px; border-color: darkorange; border: 2px solid black; background-color: darkorange;")))
+
+a
+
+
+style <- "
+.vis-time-axis { 
+background-color: lightgray;
+backgroud-border: 3px solid #73AD21;
+backgroun-opacity; 0.1;
+font-weight: bold;
+text-align: center;
+vertical-align: middle;
+border: 1.5px solid #73AD21;
+font-size: 15px;}
+.vis-odd {
+color: blue;
+vertical-align: middle;
+  }
+
+"
+htmltools::html_print(htmltools::tagList(htmltools::tags$style(style), a))
+
+```
+
 
 ### Vigilancia Epidemiológica.
 
